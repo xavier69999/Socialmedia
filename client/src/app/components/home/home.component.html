@@ -1,0 +1,67 @@
+<div class="jumbotron text-center">
+  <h1>On-Boarding Application</h1>
+  <p class="lead">Welcome to the On-Boarding Application by <strong>B & G Solutions</strong></p>
+  <div>
+    <a *ngIf="!authService.loggedIn()" routerLink="/register" class="btn btn-primary">Register</a>
+    <a *ngIf="!authService.loggedIn()" routerLink="/login" class="btn btn-default">Login</a>
+    <a *ngIf="authService.loggedIn()" routerLink="/blog" class="btn btn-success">Upload Applicants (CSV File)</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="https://image.flaticon.com/icons/svg/417/417746.svg" alt="placeholder image" width="140" height="140">
+      <div class="caption">
+        <h3>Benjie</h3>
+        <p>Benavides</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="https://image.flaticon.com/icons/svg/417/417746.svg" alt="Generic placeholder image" width="140" height="140">
+      <div class=caption>
+        <h3>Mitch</h3>
+        <p>Galutera</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="https://image.flaticon.com/icons/svg/417/417746.svg" alt="Generic placeholder image" width="140" height="140">
+      <div class=caption>
+        <h3>Randy</h3>
+        <p>Lagdaan</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="https://image.flaticon.com/icons/svg/417/417754.svg" alt="Generic placeholder image" width="140" height="140">
+      <div class=caption>
+        <h3>Sample</h3>
+        <p>Sample</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="https://image.flaticon.com/icons/svg/417/417768.svg" alt="Generic placeholder image" width="140" height="140">
+      <div class=caption>
+        <h3>Sample</h3>
+        <p>Sample</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="https://image.flaticon.com/icons/svg/417/417764.svg" alt="Generic placeholder image" width="140" height="140">
+      <div class=caption>
+        <h3>Sample</h3>
+        <p>Sample</p>
+      </div>
+    </div>
+  </div>
+
+</div>
